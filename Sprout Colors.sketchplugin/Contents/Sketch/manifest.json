@@ -1,0 +1,31 @@
+{
+  "name": "Sprout Colors",
+  "description": "Format colors imported from Brand.ai as neatly sorted rows.",
+  "author": "Matt Born",
+  "authorEmail": "matt@sproutsocial.com",
+  "version": "1.0",
+  "identifier": "com.sproutsocial.sketch.sprout-colors",
+  "commands" : [
+    {
+      "name": "Format Document Colors",
+      "identifier": "formatDocumentColors",
+      "shortcut": "",
+      "script": "SproutColors.js",
+      "handler": "formatDocumentColors"
+    },
+    {
+      "name": "Copy to Global Colors",
+      "identifier": "copyToGlobalColors",
+      "shortcut": "",
+      "script": "SproutColors.js",
+      "handler": "copyToGlobalColors"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "formatDocumentColors",
+      "copyToGlobalColors"
+    ],
+    "title": "Sprout Colors"
+  }
+}
